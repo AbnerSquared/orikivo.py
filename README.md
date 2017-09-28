@@ -6,15 +6,15 @@ The command extension's default is : `~`
 
 <ol type="a">
    <li>img : A command used to reference saved images.
-   <ul>
+   <ul type="disc">
       <li>edit : The sub-command that references the types of edits possible for an image.
-      <ul>
+      <ul type="circle">
          <li>rot :</li>
          <li>flip :</li>
          <li>add : The sub-command of edit that allows you to add several methods for an image.
-         <ul>
+         <ul type="disc">
             <li>txt : The sub-command of add that allows you to add text to an image.
-            <ul>
+            <ol type="i">
                <li>msg : The message the text will say.</li>
                <li>fnt : The font name you use for the text.</li>
                <li>fns : The size of the letters for the text.</li>
@@ -25,15 +25,17 @@ The command extension's default is : `~`
                <li>plmethod : The method used to place the text in the image. [POSNAME, XY]</li>
                <li>plx : The primary reference used for the placement. If POSNAME, put the the positioning name here.</li>
                <li>ply : The secondary reference used for the placement, mainly towards y on XY.</li>
-            </ul>
+            </ol>
             </li>
             <li>cir : The sub-command of add that adds a circle to an image.</li>
             <li>rct : The sub-command of add that adds a rectangle to an image.</li>
          </ul>
          </li>
+      </li>   
       </ul>
-      </li>
-      <li>view : The sub-command that sends the image name referenced.</li>
+   <li>view : The sub-command that sends the image name referenced.</li>
+   </ul>
+</li>
 </ol>
 
 ## Required:
