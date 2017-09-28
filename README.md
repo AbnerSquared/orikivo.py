@@ -4,7 +4,7 @@ A Discord.py bot that will include many methods, such as mathematics, image edit
 ## Commands:
 The command extension's default is : `~`
 
-<ol type="a">
+<ol type="I">
    <li>img : A command used to reference saved images.
    <ul type="disc">
       <li>edit : The sub-command that references the types of edits possible for an image.
@@ -14,7 +14,7 @@ The command extension's default is : `~`
          <li>add : The sub-command of edit that allows you to add several methods for an image.
          <ul type="disc">
             <li>txt : The sub-command of add that allows you to add text to an image.
-            <ol type="i">
+            <ol type="1">
                <li>msg : The message the text will say.</li>
                <li>fnt : The font name you use for the text.</li>
                <li>fns : The size of the letters for the text.</li>
