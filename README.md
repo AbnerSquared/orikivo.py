@@ -5,7 +5,8 @@ A Discord.py systematic set that will include many methods, such as mathematics,
 The command extension's default is : `~`
 
 <ol type="I">
-   <li>img : A command used to reference saved images.
+   <li>img : A command used to reference saved images.<br>
+      <b>[ ~img edit add txt "Sample text." arial 26 HEX #000000 - - XY 125 245 ]</b><br><br>
    <ul type="disc">
       <li>edit : The sub-command that references the types of edits possible for an image.
       <ul type="circle">
