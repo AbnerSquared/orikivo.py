@@ -1,5 +1,5 @@
 # Orikivo
-A Discord.py bot that will include many methods, such as mathematics, image editing, saving, and the functionalities of multiple API, including Steam and Overwatch at one point.
+A Discord.py systematic set that will include many methods, such as mathematics, image editing, saving, and the functionalities of multiple API, including Steam and Overwatch at one point.
 
 ## Commands:
 The command extension's default is : `~`
@@ -33,7 +33,11 @@ The command extension's default is : `~`
          </li>
       </li>   
       </ul>
-   <li>view : The sub-command that sends the image name referenced.</li>
+   <li>view : The sub-command that sends the image name referenced.
+   <ul type="circle">
+      <li>vimethod : The method used to view your image. [OS, DSC, ODC]</li>
+   </ul>
+   </li>
    </ul>
 </li>
 </ol>
