@@ -9,16 +9,16 @@ The command extension's default is : `~`
       - flip :
       - add : The sub-command of `edit` that allows you to add several methods for an image.
          - txt : The sub-command of `add` that allows you to add text to an image. [ALL SUB-COMMANDS OF `txt` MUST BE ENTERED FOR IT TO PROPERLY RENDER]
-           - I. [msg] : 
-           - II. [fnt] :
-           - III. [fns] :
-           - IV. [clmethod] :
-           - V. [clp] :
-           - VI. [cls] :
-           - VII. [clt] :
-           - VIII. [plmethod] :
-           - IX. [plx] :
-           - X. [ply] :
+           - I. `[msg]` : 
+           - II. `[fnt]` :
+           - III. `[fns]` :
+           - IV. `[clmethod]` :
+           - V. `[clp]` :
+           - VI. `[cls]` :
+           - VII. `[clt]` :
+           - VIII. `[plmethod]` :
+           - IX. `[plx]` :
+           - X. `[ply]` :
          - cir :
          - rct :
    - view : The sub-command that sends the image name referenced.
