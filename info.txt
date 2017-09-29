@@ -1,1 +1,38 @@
+This is where all of the command information will be written, until all commands are properly complete.
+The command extension's default is : `~`
 
+
+
+
+
+
+
+
+img
+\___
+  edit
+  \___
+    rot
+    flip
+    add
+    \___
+      txt
+      \___
+        msg
+        fnt
+        fns
+        clmethod
+        clp
+        cls
+        clt
+        plmethod
+        plx
+        ply
+      /---
+      cir
+      rct
+    /---
+  view
+  \___
+    vimethod
+/---
