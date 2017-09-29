@@ -1,3 +1,5 @@
+~ The read me document is in progress, and is subject to change at any time.
+
 # Orikivo
 A Discord.py systematic set that will include many methods, such as mathematics, image editing, saving, and the functionalities of multiple API, including Steam and Overwatch at one point.
 
