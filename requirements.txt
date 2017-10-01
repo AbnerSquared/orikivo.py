@@ -1,0 +1,13 @@
+discord.py==0.16.2
+discord.py[voice]
+pytz
+PIL
+memory_profiler
+youtube_dl
+PyNaCl
+pycparser
+cffi
+mcstatus
+aiohttp
+websockets
+chardet
