@@ -166,18 +166,14 @@ class Conno():
             await self.bot.send_message(ctx.message.channel, embed=t1s)
 
         if save_vers == "img":
-            t1s = (
-            t1 = s1
-            t2 = s2
-                
-                ('urllib.request.urlretrieve(s1, s2 + ".jpg")', '', 'exec')
-            )
-            t2s = urllib.request.urlretrieve(s1, s2 + ".jpg")
-            t2ms = s2 + ".jpg"
+
+            urllib.request.urlretrieve(s1, s2 + ".jpg")
+            t2 = s2 + ".jpg"
+            t1s = t2
             
             po()
-            await self.bot.send_message(ctx.message.channel, "Your image has been saved.\n ```\n" + t2ms + " ```")
-            await self.bot.send_file(ctx.message.channel, t2s)
+            await self.bot.send_message(ctx.message.channel, "Your image has been saved.\n ```\n" + t1s + " ```")
+            await self.bot.send_file(ctx.message.channel, t2)
 
     @commands.command(pass_context=True, no_pm=True)
     async def loadit(self, ctx, vers: str=None):
