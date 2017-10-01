@@ -3,14 +3,33 @@ The command extension's default is : `~`
 
 LEGEND : 
 " " = Placeholder. A place where you type something else in contrary to the command to define it.
-* = Needed. Based on the one you pick, there will be values which don't need the extra sub-commands. The amount of "*" placed next
-      to the value will show how many you need for the specified sub-command. Will show next to the value as: [VALUE][# of "*"]
+
+* = Needed. Based on the one you pick, there will be values which don't need the extra sub-commands.
+    The amount of "*" placed next to the value will show how many you need for the specified sub-command.
+      
+      Example:
+             PLACEHOLDER [ VALUE1* | VALUE2** | VALUE3*** ]
+             \___
+               INTEGER1
+               INTEGER2
+               INTEGER3
+             /---
+             
+`` = Value of sub-command. A symbol telling the user that these are one of the options to choose from inside a sub-command,
+     not having all needing to be filled. The amount of "`" specified is based on command tier importance.
+     
+     Example:
+             SUBCOMMAND
+             \___
+               ``OPTION1
+               ``OPTION2
+               ``OPTION3
+             /---
 
 
 
 
-
-
+________________________________________________________________________________________________________________________________
 img
 \___
   delete
@@ -93,3 +112,4 @@ img
       os
     /---
 /---
+________________________________________________________________________________________________________________________________
