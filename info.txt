@@ -1,7 +1,10 @@
 This is where all of the command information will be written, until all commands are properly complete.
 The command extension's default is : `~`
 
-
+LEGEND : 
+" " = Placeholder. A place where you type something else in contrary to the command to define it.
+* = Needed. Based on the one you pick, there will be values which don't need the extra sub-commands. The amount of "*" placed next
+      to the value will show how many you need for the specified sub-command. Will show next to the value as: [VALUE][# of "*"]
 
 
 
@@ -10,6 +13,10 @@ The command extension's default is : `~`
 
 img
 \___
+  delete
+  \___
+    "del_type"
+  /---
   edit
   \___
     rot
@@ -19,20 +26,70 @@ img
       txt
       \___
         msg
-        fnt
-        fns
-        clmethod
-        clp
-        cls
-        clt
-        plmethod
-        plx
-        ply
+        "fnn"
+        "txt_szmtd"
+        \___ 
+          "tfns"
+        /---
+        "txt_clmtd"
+        \___
+          "tclp"
+          "tcls"
+          "tclt"
+        /---
+        "txt_plmtd"
+        \___
+          "tplx"
+          "tply"
+        /---
       /---
       cir
+      \___
+        "cir_szmtd"
+        \___
+          "cswdth"
+          "cshght"
+        /---
+        "cir_clmtd"
+        \___
+          "cclp"
+          "ccls"
+          "cclt"
+        /---
+        "cir_plmtd"
+        \___
+          "cplx"
+          "cply"
+        /---
+      /---
       rct
+      \___
+        "rct_szmtd"
+        \___
+          "rswdth"
+          "rshght"
+        /---
+        "rct_clmtd"
+        \___
+          "rclp"
+          "rcls"
+          "rclt"
+        /---
+        "rct_plmtd"
+        \___
+          "rplx"
+          "rply"
+        /---
     /---
   view
   \___
     vimethod
+    \___
+      disc
+      \___
+        def
+        "ch_id"
+      /---
+      os
+    /---
 /---
