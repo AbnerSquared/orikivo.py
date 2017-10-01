@@ -1,5 +1,4 @@
-discord.py==0.16.6
-discord.py[voice]
+discord.py[voice]==0.16.6
 pytz
 PIL
 memory_profiler
