@@ -442,87 +442,184 @@ pong
 ________________________________________________________________________________________________________________________________
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ________________________________________________________________________________________________________________________________
+
+NEEDS A BORDER CREATOR
+NEEDS A IMAGE OVERLAY
+NEEDS AN IMAGE EFFECTS
+NEEDS AN IMAGE MERGE
+NEEDS AN IMAGE COLORIZE
+
 img
 \___
-  delete
+  "mtd"
   \___
-    "del_type"
+    bsc
+    \___
+      view
+      edit
+      \___
+        rotate
+        \___
+          "angle" [ ANGLENAME | LEFT | RIGHT | UP | DOWN | DIAGTOPLEFT | DIAGBOTLEFT | DIAGTOPRIGHT | DIAGBOTRIGHT ]
+        /---
+        flip
+        \___
+          "direction" [ UP | TOLEFT | TORIGHT | DOWN ]
+        /---
+        filter
+        add
+        \___
+          text
+          \___
+            "message" [ MESSAGE STRING ]
+            "size" [ SMALL | MEDIUM | LARGE ]
+            "font" [ SIMPLE ]
+            "color" [ COLORNAME | HEX ]
+            "placement" [ TOPLEFT | TOPCENTER | TOPRIGHT || MIDLEFT | MIDCENTER | MIDRIGHT || BOTLEFT | BOTCENTER | BOTRIGHT ]
+          /---
+          oval
+          \___
+            "type" [ CIRCLE | OVAL ]
+            "size" [ SMALL | MEDIUM | LARGE ]
+            "color" [ COLORNAME | HEX ]
+            "placement" [ TOPLEFT | TOPCENTER | TOPRIGHT || MIDLEFT | MIDCENTER | MIDRIGHT || BOTLEFT | BOTCENTER | BOTRIGHT ]
+          /---
+          rectangle
+          \___
+            "type" [ SQUARE | RECTANGLE ]
+            "size" [ SMALL | MEDIUM | LARGE ]
+            "color" [ COLORNAME | HEX ]
+            "placement" [ TOPLEFT | TOPCENTER | TOPRIGHT || MIDLEFT | MIDCENTER | MIDRIGHT || BOTLEFT | BOTCENTER | BOTRIGHT ]
+          /---
+          line
+          \___
+            "thickness" [ FINETIP | NORMALTIP | CHISLEDTIP ]
+            "length" [ TINY | MEDIUM | LONG ]
+            "color" [ COLORNAME | HEX ]
+            "placement" [ TOPLEFT | TOPCENTER | TOPRIGHT || MIDLEFT | MIDCENTER | MIDRIGHT || BOTLEFT | BOTCENTER | BOTRIGHT ]
+          /---
+        /---
+      /---
+    /---
+    adv
+    \___
+      del
+      \___
+        "del_type"
+      /---
+      edit
+      \___
+        rot
+        \___
+          "rotang"
+        /---
+        flp
+        \___
+          "flpdir"
+        /---
+        add
+        \___
+          txt
+          \___
+            msg
+            "fnn"
+            "txt_szmtd"
+            \___ 
+              "tfns"
+            /---
+            "txt_clmtd"
+            \___
+              "tclp"
+              "tcls"
+              "tclt"
+            /---
+            "txt_plmtd"
+            \___
+              "tplx"
+              "tply"
+            /---
+          /---
+          ovl
+          \___
+            "ovl_szmtd"
+            \___
+              "oswdth"
+              "oshght"
+            /---
+            "ovl_clmtd"
+            \___
+              "oclp"
+              "ocls"
+              "oclt"
+            /---
+            "ovl_plmtd"
+            \___
+              "oplx"
+              "oply"
+            /---
+          /---
+          rct
+          \___
+            "rct_szmtd"
+            \___
+              "rswdth"
+              "rshght"
+            /---
+            "rct_clmtd"
+            \___
+              "rclp"
+              "rcls"
+              "rclt"
+            /---
+            "rct_plmtd"
+            \___
+              "rplx"
+              "rply"
+            /---
+          /---
+          lin
+          \___
+            "lin_szmtd"
+            \___
+              "lsthkns"
+            /---
+            "lin_clmtd"
+            \___
+              "lclp"
+              "lcls"
+              "lclt"
+            /---
+            "lin_plmtd"
+            \___
+              "lplxy"
+              \___
+                "lpllgth"
+                "lplx"
+                "lply"
+              /---
+              "lplot"
+              \___
+                "lpi"
+                "lpii"
+              /---
+            /---
+          /---
+        /---
+      /----
+      view
+      \___
+        vimethod
+        \___
+          disc
+          \___
+            def
+            "ch_id"
+          /---
+          os
+        /---
+      /---
+    /---
   /---
-  edit
-  \___
-    rot
-    flip
-    add
-    \___
-      txt
-      \___
-        msg
-        "fnn"
-        "txt_szmtd"
-        \___ 
-          "tfns"
-        /---
-        "txt_clmtd"
-        \___
-          "tclp"
-          "tcls"
-          "tclt"
-        /---
-        "txt_plmtd"
-        \___
-          "tplx"
-          "tply"
-        /---
-      /---
-      cir
-      \___
-        "cir_szmtd"
-        \___
-          "cswdth"
-          "cshght"
-        /---
-        "cir_clmtd"
-        \___
-          "cclp"
-          "ccls"
-          "cclt"
-        /---
-        "cir_plmtd"
-        \___
-          "cplx"
-          "cply"
-        /---
-      /---
-      rct
-      \___
-        "rct_szmtd"
-        \___
-          "rswdth"
-          "rshght"
-        /---
-        "rct_clmtd"
-        \___
-          "rclp"
-          "rcls"
-          "rclt"
-        /---
-        "rct_plmtd"
-        \___
-          "rplx"
-          "rply"
-        /---
-    /---
-  view
-  \___
-    vimethod
-    \___
-      disc
-      \___
-        def
-        "ch_id"
-      /---
-      os
-    /---
 /---
 ________________________________________________________________________________________________________________________________
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
