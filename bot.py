@@ -68,4 +68,4 @@ if __name__ == "__main__":
             exc = '{}: {}'.format(type(e).__name__, e)
             print("Failed to approve the extension: '{}\n{}'".format(extension, exc))
 
-    bot.run('MjkzMDc2NDQ4NDA5OTQ0MDY0.DEqTwA.H_pudki9h5g7PEYJUCV3chrqzxY')
+    bot.run('TOKENHERE')
