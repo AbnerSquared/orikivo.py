@@ -1,6 +1,6 @@
 discord.py[voice]==0.16.6
 pytz==2017.2
-Pillow==4.2.1
+Pillow==6.2.0
 memory_profiler==0.47
 youtube_dl==2017.9.24
 PyNaCl==1.0.1
